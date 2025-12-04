@@ -1,0 +1,30 @@
+# Data files
+#data/
+processed_data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Results (optional - comment out if you want to commit these)
+# results/metrics/
+# results/figures/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+venv/
+ENV/
+.venv/
+env/
+.env

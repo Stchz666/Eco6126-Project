@@ -1,0 +1,150 @@
+{
+    "data": [
+        {
+            "round": 1,
+            "model_type": "linear",
+            "model_name": "LogisticRegression",
+            "parameters": "default",
+            "accuracy": 0.8738512626457642,
+            "precision": 0.8737435376816843,
+            "recall": 0.8738512626457642,
+            "f1": 0.87349958625945,
+            "roc_auc": 0.9270019751494818,
+            "timestamp": "2025-12-05 01:56:03"
+        },
+        {
+            "round": 1,
+            "model_type": "linear",
+            "model_name": "KNeighborsClassifier",
+            "parameters": "default",
+            "accuracy": 0.9201096609776817,
+            "precision": 0.9213932430859681,
+            "recall": 0.9201096609776817,
+            "f1": 0.9196487073423834,
+            "roc_auc": 0.9620302610703988,
+            "timestamp": "2025-12-05 01:56:11"
+        },
+        {
+            "round": 1,
+            "model_type": "linear",
+            "model_name": "GaussianNB",
+            "parameters": "default",
+            "accuracy": 0.8388678662444976,
+            "precision": 0.8387283819107931,
+            "recall": 0.8388678662444976,
+            "f1": 0.838146587475811,
+            "roc_auc": 0.8979062189766351,
+            "timestamp": "2025-12-05 01:56:11"
+        },
+        {
+            "round": 1,
+            "model_type": "tree",
+            "model_name": "DecisionTree",
+            "parameters": "default",
+            "accuracy": 0.9457487064638196,
+            "precision": 0.9457776897680227,
+            "recall": 0.9457487064638196,
+            "f1": 0.9457605528282601,
+            "roc_auc": 0.9450230683903663,
+            "timestamp": "2025-12-05 01:56:13"
+        },
+        {
+            "round": 1,
+            "model_type": "tree",
+            "model_name": "RandomForest",
+            "parameters": "default",
+            "accuracy": 0.9604602672021005,
+            "precision": 0.960797301803471,
+            "recall": 0.9604602672021005,
+            "f1": 0.9603622528136491,
+            "roc_auc": 0.9931535301371173,
+            "timestamp": "2025-12-05 01:56:40"
+        },
+        {
+            "round": 1,
+            "model_type": "tree",
+            "model_name": "XGBoost",
+            "parameters": "default",
+            "accuracy": 0.9615028187504827,
+            "precision": 0.9616461104333218,
+            "recall": 0.9615028187504827,
+            "f1": 0.9614362806291132,
+            "roc_auc": 0.9950743410876631,
+            "timestamp": "2025-12-05 01:56:41"
+        },
+        {
+            "round": 1,
+            "model_type": "tree",
+            "model_name": "LightGBM",
+            "parameters": "default",
+            "accuracy": 0.962738435400417,
+            "precision": 0.963023983420814,
+            "recall": 0.962738435400417,
+            "f1": 0.9626539923208984,
+            "roc_auc": 0.9949366076257741,
+            "timestamp": "2025-12-05 01:56:41"
+        },
+        {
+            "round": 1,
+            "model_type": "tree",
+            "model_name": "AdaBoost",
+            "parameters": "default",
+            "accuracy": 0.9101861147578963,
+            "precision": 0.9101963260231613,
+            "recall": 0.9101861147578963,
+            "f1": 0.909988873268865,
+            "roc_auc": 0.9705170931695253,
+            "timestamp": "2025-12-05 01:56:51"
+        },
+        {
+            "round": 1,
+            "model_type": "tree",
+            "model_name": "Bagging",
+            "parameters": "default",
+            "accuracy": 0.9585682292068886,
+            "precision": 0.9588257250833296,
+            "recall": 0.9585682292068886,
+            "f1": 0.9584753936616617,
+            "roc_auc": 0.9900720408778667,
+            "timestamp": "2025-12-05 01:57:03"
+        },
+        {
+            "round": 1,
+            "model_type": "tree",
+            "model_name": "ExtraTrees",
+            "parameters": "default",
+            "accuracy": 0.9576415167194378,
+            "precision": 0.9580053069382287,
+            "recall": 0.9576415167194378,
+            "f1": 0.957530705671311,
+            "roc_auc": 0.9924541710921015,
+            "timestamp": "2025-12-05 01:57:21"
+        }
+    ],
+    "columns": [
+        "round",
+        "model_type",
+        "model_name",
+        "parameters",
+        "accuracy",
+        "precision",
+        "recall",
+        "f1",
+        "roc_auc",
+        "timestamp"
+    ],
+    "summary": {
+        "best_model": {
+            "round": 1,
+            "model_type": "tree",
+            "model_name": "LightGBM",
+            "parameters": "default",
+            "accuracy": 0.962738435400417,
+            "precision": 0.963023983420814,
+            "recall": 0.962738435400417,
+            "f1": 0.9626539923208984,
+            "roc_auc": 0.9949366076257741,
+            "timestamp": "2025-12-05 01:56:41"
+        }
+    }
+}

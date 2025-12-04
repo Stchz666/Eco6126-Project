@@ -1,0 +1,28 @@
+feature_name
+id
+Age
+Flight Distance
+Inflight wifi service
+Departure/Arrival time convenient
+Ease of Online booking
+Gate location
+Food and drink
+Online boarding
+Seat comfort
+Inflight entertainment
+On-board service
+Leg room service
+Baggage handling
+Checkin service
+Inflight service
+Cleanliness
+Total_Service_Score
+Avg_Service_Score
+Is_Delayed
+Departure_Delay_Log
+Arrival_Delay_Log
+Gender_Male
+Customer Type_disloyal Customer
+Type of Travel_Personal Travel
+Class_Eco
+Class_Eco Plus
